@@ -157,7 +157,8 @@ body, html {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin-right: 2rem;
+    margin: center;
+    margin: 0 1rem;
 }
 
 .circle-button img {
@@ -166,12 +167,14 @@ body, html {
     border-radius: 50%;
     object-fit: fill;
     transition: all 0.5s;
+    justify-content: center;
 }
 
 
 .circle-button img:hover
 {
     transform: scale(1.2);
+    justify-content: center;
 }
 
 .circle-button span {
@@ -185,10 +188,12 @@ body, html {
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.5s;
+    justify-content: center;
 }
 
 .circle-button:hover span {
     opacity: 1;
+    justify-content: center;
 }
 
 .contributor_video_container{
@@ -203,6 +208,7 @@ body, html {
     height: 10rem;
     border-radius: 50%;
     margin:2rem 
+    justify-content: center;
     
 }
 /* .contributor_video_container
